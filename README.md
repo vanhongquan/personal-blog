@@ -6,7 +6,7 @@ A personal website using HTML, CSS, and JavaScript to showcase cybersecurity pro
 
 SimpleBlog is a completely responsive personal blog website that is compatible with all mobile devices, has Dark and light themes, and is built using HTML, CSS, and JavaScript.
 
- <a><strong>➥ Live Demo</strong></a> 
+ <a href="https://github.com/vanhongquan/personal-blog/blob/main/index.html"><strong>➥ Live Demo</strong></a> 
  
  </div>
 
