@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo-color.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo-color.png" alt="logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-color.png" alt="logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Carrers</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Individual Stories</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Business Stories</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Văn Hồng&nbsp;Quân</b>.
+            <br>Penetration tester
+          </h1>
+
+          <p class="h3">
+            Skilled Penetration Tester proficient in assessing system security, identifying vulnerabilities, and providing actionable solutions to enhance defenses
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/authoravatar.png" alt="Văn Hồng Quân" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/AWS-Engineer-Blog_V1.svg" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Careers</button>
+
+                <h3>
+                  <a href="https://tryhackme.com/r/resources/blog/become-aws-cloud-engineer" class="h3">
+                    How to Become an AWS Cloud Engineer
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  In this guide, we’ll look at everything you need to know to become an AWS Cloud Engineer, and how TryHackMe can help you get there.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Mar 01, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/WaysToAssess-BlogBanner.svg" alt="Ways to Assess Cyber Security Candidates for Your Team" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Business Stories</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/assess-cyber-security-candidates" class="h3">Ways to Assess Cyber Security Candidates for Your Team</a></h3>
+
+                <p class="blog-text">
+                  Explore the different ways in which you can assess cyber security candidates and members of you team
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Feb 19, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">9 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/Richard-s-Success-story-01.svg" alt="Becoming a Security Engineer: Richárd’s Success Story" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Individual Stories</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/richard-success-story" class="h3">Becoming a Security Engineer: Richárd’s Success Story</a></h3>
+
+                <p class="blog-text">
+                  Introducing Richard, a Try Hack Me user who has recently soared to new heights after securing a role as a Security Engineer for Prezi
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Sep 19, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/A-day-in-the-life-of-Max----blog-banner.svg" alt="Our New DevSecOps Learning Path Has Landed!"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Careers</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/interview-with-devsecops-engineer" class="h3">Our New DevSecOps Learning Path Has Landed!</a></h3>
+
+                <p class="blog-text">
+                  To give you an understanding of what to expect in a DevSecOps role and to answer your frequently asked questions, we sat down with Max, who currently works as a Content Engineer at TryHackMe, after previously working as a DevSecOps Engineer for three years.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Feb 27, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/New-End-User-Assignments-Page---Banner.svg"
+                  alt="Introducing our New End-User Assignments Page!" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Business Stories</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/new-end-user-assignments" class="h3">Introducing our New End-User Assignments Page!</a></h3>
+
+                <p class="blog-text">
+                  Introducing our brand new Asignments area for users in Buiness and Education seats - our very first user-centric Feature!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Feb 02, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/Konstantino.png"
+                  alt="From Pharmacist to Senior SOC Analyst: Konstantinos’ Success Story" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Individual Stories</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/konstantinos-success-story" class="h3">From Pharmacist to Senior SOC Analyst: Konstantinos’ Success Story</a>
+                </h3>
+
+                <p class="blog-text">
+                  The story of Konstantinos, a pharmaceutical graduate who changed carrer paths to become a SOC Analyst, and very recently, was promoted a Senior Analyst!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="https://tryhackme.com/r/resources/blog/konstantinos-success-story" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 22, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/Eight-Careers-in-Defensive-Security-blog-banner-V1.svg"
+                  alt="Eight Careers in Defensive Security" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Careers</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/careers-defensive-security" class="h3">Eight Careers in Defensive Security</a></h3>
+
+                <p class="blog-text">
+                  Let's dive into eight careers in defensive security and how Try Hack Me can help you secure on of these dream roles!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Feb 13, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">10 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/DevSecOps-B2B-Blog-Banner-1920x400_V1.svg" alt="DevSecOps Training for Business"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Business Stories</button>
+
+                <h3><a href=https://tryhackme.com/r/resources/blog/devsecops-training-for-business" class="h3">DevSecOps Training for Business</a></h3>
+
+                <p class="blog-text">
+                  We are thrilled to introduce our NEW cutting-edge DevSecOps learning path tailored for team leaders seking to enhance the skills of their DevSecOps teams within...
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">Deb 27, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/Success-story---Hayden-banner.png" alt="From Student to SOC Analyst: Hayden’s Success Story"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Individual Stories</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog/haydens-success-story" class="h3">From Student to SOC Analyst: Hayden’s Success Story</a>
+                </h3>
+
+                <p class="blog-text">
+                  We spoke to Hayden, a try Hack me student that recently secured a SOC Analyst role!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">Sep 13, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/How-to-Become-a-SOC-L2-Analyst---Blog-banner--1-.png"
+                  alt="How to Become a SOC Level 2 Analyst" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Careers</button>
+
+                <h3><a href="https://tryhackme.com/r/resources/blog" class="h3">How to Become a SOC Level 2 Analyst</a></h3>
+
+                <p class="blog-text">
+                  Discover our top tips for becoming a SOC Level 2 Analyst, complied by our team of security expert!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Văn Hồng Quân" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Văn Hồng Quân</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">Dec 12, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Careers</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Individual Stories</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Business Stories</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#Platform</button>
+              <button class="hashtag">#Javascript</button>
+              <button class="hashtag">#Blog</button>
+              <button class="hashtag">#Press Releases</button>
+              <button class="hashtag">#Cyber Security</button>
+              <button class="hashtag">#CTF</button>
+              <button class="hashtag">#Python</button>
+              <button class="hashtag">#C#</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo-color.png" alt="Logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-color.png" alt="Logo" width="150" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Careers, Individual Stories and Business Stories.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">Blog</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
